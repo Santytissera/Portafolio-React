@@ -1,0 +1,25 @@
+[{
+    "id" : "3",
+    "empresa" : "Grupo Intertron S.A",
+    "puesto" : "Dessarollador de Aplicaciones",
+    "fechaini" : "Diciembre - 2020",
+    "fechafin" : "Abril - 2021",
+    "descr" : "Desarrollo de aplicaciones internas con Power Apps, Automatización de procesos con Power Automate, Análisis de datos con Power Bi para informes mensuales, Implementación de solución interna con Microsoft 365: Captura de reclamos a través de Microsoft Forms y visualización en un sitio Sharepoint para uso del equipo de soporte"
+},
+{
+    "id" : "2",
+    "empresa" : "NTB Net S.A",
+    "puesto" : "Soporte IT",
+    "fechaini" : "Junio - 2021",
+    "fechafin" : "Mayo - 2023",
+    "descr" : "Soporte nivel 1 a +100 usuarios en el uso de aplicaciones web internas desplegados en red local, Gestión y seguimiento de incidentes/requerimientos,Contribución para reducir significativamente incidentes pendientes mediante el seguimiento proactivo y acelerando los tiempos de resolución de tickets"
+
+},
+{
+    "id" : "1",
+    "empresa" : "Stefanini Group",
+    "puesto" : "Soporte IT",
+    "fechaini" : "Mayo - 2023",
+    "fechafin" : "Actualmente",
+    "descr" : "Soporte nivel 1 en entornos SAP y Microsoft Office, Mantenimiento de servidores fisicos (HP,Fortinet), Uso de Herramienta de tickets Mantenimiento e inventariado de equipos informáticos"
+}]

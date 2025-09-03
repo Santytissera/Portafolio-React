@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main{
+    scroll-behavior: smooth;
+    font-family: "Roboto Condensed", sans-serif;
+    background: linear-gradient(
+    to right, 
+    transparent,        /* borde izquierdo difuminado */
+    rgba(40, 40, 40, 40) 30%, /* color sólido */
+    rgb(40, 40, 40) 70%, /* color sólido */
+    transparent         /* borde derecho difuminado */
+  );
+  color: honeydew;
+  background-color: black;
+}
+
+/*nav*/
+.navbar {
+  background: rgba(0, 0, 0, 0.4); /* color negro con 40% de opacidad */
+  backdrop-filter: blur(6px);     /* efecto de difuminado detrás */
+}
+
+ /* Sobre mi*/
+
+
+.descripcion p{
+    margin: 20px;
+    font-size: 18px;
+}
+
+ /* Experiencia */
+
+h3{
+    margin-bottom: 15px;
+}
+
+/* Proyectos */
+
+
+/* Contacto */
+
+#Contacto{
+    padding-bottom: 20px;
+}
+.formulario{
+    border-style: double;
+    border-color: darkgray;
+    padding-bottom: 10px;
+}
+
+.formulario
+
+.campo{
+    padding: 15px;
+}
+
+.datos{
+    margin-left: 20px;
+}
+
+.datos ul{
+    list-style: none;
+}
+
+.datos ul li{
+    margin: 20px;
+}
+
+/* Footer */
+footer p{
+    font-size: 15px ;
+}

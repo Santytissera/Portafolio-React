@@ -1,0 +1,12 @@
+[
+    {
+    "id" : "1",
+    "nombre" : "Santiago",
+    "apellido" : "Tissera",
+    "bio": "Estudiante avanzado de Ingeniería en Sistemas con sólida experiencia en soporte técnico IT, resolución de incidentes y capacitación de usuarios en entornos empresariales (SAP, Power Platform). Interesado en el desarrollo de software, con conocimientos en Python, Java y SQL, y motivado por aplicar estas habilidades en proyectos tecnológicos que generen valor.",
+    "tel": "+543513435769",
+    "correo":"santytissera@gmail.com",
+    "linkedin":"https://www.linkedin.com/in/santiago-tissera-8929b9230/",
+    "github": "https://github.com/Santytissera"
+    }
+]
