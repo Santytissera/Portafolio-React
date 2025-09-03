@@ -1,21 +1,15 @@
 [{
     "id" : "1",
-    "nom_pr" : "",
-    "descr_pr" : "",
-    "img" : "",
-    "link" : ""
+    "nom_pr" : "Pymes 2025",
+    "descr_pr" : "Maqueta de sitio web que simula venta y compras de articulos por distintas categorias. Implementa control de usuarios con JWT ",
+    "img" : "https://github.com/Santytissera/Portafolio-React/blob/main/Portafolio/imagenes/proyectos/proyecto_react.png?raw=true",
+    "link" : "https://github.com/Santytissera/Proyecto-React"
 },
 {
     "id" : "2",
-    "nom_pr" : "",
-    "descr_pr" : "",
-    "img" : "",
-    "link" : ""
-},
-{
-    "id" : "3",
-    "nom_pr" : "",
-    "descr_pr" : "",
-    "img" : "",
-    "link" : ""
-}]
+    "nom_pr" : "TP Backend Springboot",
+    "descr_pr" : "Diseño de servidor backend utilizando spring que permite realizar el alquiler de bicicletas y calcular el costo segun la distancia recorrida ",
+    "img" : "https://github.com/Santytissera/Portafolio-React/blob/main/Portafolio/imagenes/proyectos/proyecto_java.png?raw=true",
+    "link" : "https://github.com/Santytissera/TPBack_SpringBoot"
+}
+]
