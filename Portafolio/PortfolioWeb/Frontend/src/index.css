@@ -10,7 +10,7 @@
     rgb(40, 40, 40) 70%, /* color sólido */
     transparent         /* borde derecho difuminado */
   );
-  color: honeydew;
+  color:honeydew;
   background-color: black;
 }
 
@@ -20,13 +20,6 @@
   backdrop-filter: blur(6px);     /* efecto de difuminado detrás */
 }
 
- /* Sobre mi*/
-
-
-.descripcion p{
-    margin: 20px;
-    font-size: 18px;
-}
 
  /* Experiencia */
 
@@ -51,9 +44,6 @@ h2{
     border-color: darkgray;
     padding-bottom: 10px;
 }
-
-.formulario
-
 .campo{
     padding: 15px;
 }

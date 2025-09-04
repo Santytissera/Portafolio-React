@@ -4,7 +4,7 @@ function CardProyecto({proyecto}){
         <>
         <div className="tarjeta">
             <div className="face front">
-                <img src={proyecto.img} alt="Imagen de tarjeta"/>
+                <img src={proyecto.img} loading='lazy' alt="Imagen de tarjeta"/>
                     <h3>{proyecto.nom_pr}</h3>
             </div>
 
