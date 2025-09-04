@@ -39,6 +39,14 @@ const sequelize = new Sequelize({
     github:{
         type:DataTypes.STRING,
         allowNull:false
+    },
+    portada:{
+        type:DataTypes.STRING,
+        allowNull:false
+    },
+    perfil:{
+        type:DataTypes.STRING,
+        allowNull:true
     }
  },
 {

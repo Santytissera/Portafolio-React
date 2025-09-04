@@ -3,7 +3,7 @@ function Footer(){
         <>
             <footer>
                 <div className="container d-flex justify-content-center">
-                    <p>Copyrigth&copy;2025. Todos los Derechos Reservados</p>
+                    <p>&copy;Santiago Tissera, Córdoba, Argentina</p>
                 </div>
             </footer>
         </>

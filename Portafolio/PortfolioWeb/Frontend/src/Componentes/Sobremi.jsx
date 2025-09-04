@@ -14,7 +14,7 @@ function SobreMi(){
         <section id="Inicio">
             <div className="container p-0">
                 {/*Foto de portada */}
-                <img src= {persona.portada} className="cover-photo" alt="Portada"/>
+                <img src={persona.portada} className="cover-photo rounded-2" alt="Portada"/>
 
                 {/*Foto de perfil*/}
                  <div className="container">

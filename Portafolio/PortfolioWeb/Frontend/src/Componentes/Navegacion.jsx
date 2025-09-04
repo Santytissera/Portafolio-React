@@ -3,7 +3,7 @@ function Navegacion(){
     <>
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
             <div className="container">
-                <a className="navbar-brand" href="#">MiSitioWeb</a>
+                <a className="navbar-brand" href="#"><i className="bi bi-code-square"></i></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toogle navigation">
                 <span className="navbar-toggler-icon"></span>
