@@ -1,16 +1,17 @@
 import '../styles/SobreMi.css'
 import PersonaServicio from '../servicios/Persona.servicio.jsx'
+import ContactoService from '../servicios/Contacto.service.jsx'
 import { useState, useEffect } from 'react'
 import {Formik,Form,Field,ErrorMessage, useFormik} from 'formik'
 function Contacto(){
-    const [FormularioEnviado, setFormularioEnviado] = useState(false);
+    const [FormularioEnviado, setFormularioEnviado] = useState(null);
     useEffect(() => {obtenerPersona()},[]);
     const [persona,setPersona] = useState([]);
     
     const obtenerPersona = async () =>{
         const persona = await PersonaServicio.obtenerPersona()
         setPersona(persona) 
-        }
+        } 
 
     return(
     <>
@@ -80,10 +81,18 @@ function Contacto(){
                             }
                             return errores;
                         }}
-                        onSubmit={(values,{resetForm}) => {
-                            console.log('Correo Enviado');
-                            setFormularioEnviado(true);
-                            setTimeout(() => setFormularioEnviado(false),5000);
+                        onSubmit={async (values,{resetForm}) => {
+                            try {
+                                const data = await ContactoService.enviarForm(values);
+                                if (data.success) {
+                                    setFormularioEnviado(true);
+                                    setTimeout(() => setFormularioEnviado(false),5000);
+                                } else {
+                                    setFormularioEnviado(false)
+                                }
+                             } catch (error) {
+                                throw error
+                            }
                             resetForm();
                         }}>
                         {({errors}) => (
@@ -151,7 +160,7 @@ function Contacto(){
                                 <div className="text-center">
                                     <button className="btn btn-primary" type='submit'>Enviar Formulario</button>
                                 </div>    
-                                    {FormularioEnviado && <p className='text-success'> ¡Formulario Enviado con Éxito! </p>}
+                                    {FormularioEnviado && <p className='text-success'> ¡Formulario enviado con éxito! </p> }
                                 </Form>
                             )}
                         </Formik>
@@ -160,7 +169,6 @@ function Contacto(){
             </div>         
 </section>
     </>
-    )
-}
+)}
 
 export default Contacto
